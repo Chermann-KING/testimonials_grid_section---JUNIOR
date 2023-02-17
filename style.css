@@ -57,7 +57,14 @@ main {
 }
 article {
   border: 3px solid black;
+
   border-radius: var(--borderRadius);
+  padding: calc(var(--padding) * 2.1);
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
 }
 .daniel {
   grid-area: daniel;
