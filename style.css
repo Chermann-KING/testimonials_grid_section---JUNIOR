@@ -30,6 +30,7 @@ body {
   height: 100vh;
   font-family: var(--fontFamily);
   font-size: var(--fontSize);
+  font-weight: 500;
   background-color: var(--lightGrayishBlue);
 
   display: flex;
@@ -44,8 +45,6 @@ main {
   align-items: center;
 }
 .container {
-  border: 1px solid red;
-
   width: 1110px;
   height: 572px;
 
@@ -61,8 +60,6 @@ main {
     "jeanette patrick patrick kira";
 }
 article {
-  border: 3px solid black;
-
   border-radius: var(--borderRadius);
   padding: calc(var(--padding) * 2.1);
 
@@ -70,6 +67,10 @@ article {
   align-items: flex-start;
   justify-content: space-around;
   flex-direction: column;
+  color: var(--lightGrayishBlue);
+}
+article h1 {
+  font-weight: 600;
 }
 .user {
   display: flex;
@@ -83,32 +84,74 @@ article {
 }
 .daniel {
   grid-area: daniel;
+
+  background: linear-gradient(
+    45deg,
+    rgba(167, 117, 241, 1) 0%,
+    var(--moderateViolet) 100%
+  );
+}
+.daniel img,
+.patrick img {
+  border: 2px solid rgba(167, 117, 241, 1);
 }
 
 .jonathan {
   grid-area: jonathan;
+
+  background: var(--veryDarkGrayishBlue);
 }
 
 .kira {
   grid-area: kira;
+
+  background: var(--white);
+  color: var(--veryDarkGrayishBlue);
 }
 
 .jeanette {
   grid-area: jeanette;
+
+  background: var(--white);
+  color: var(--veryDarkGrayishBlue);
+}
+.kira .user .user-infos p:last-of-type,
+.jeanette .user .user-infos p:last-of-type,
+.daniel .user .user-infos p:last-of-type,
+.jonathan .user .user-infos p:last-of-type,
+.patrick .user .user-infos p:last-of-type {
+  opacity: 0.5;
+}
+.kira q,
+.jeanette q,
+.daniel q,
+.jonathan q,
+.patrick q {
+  opacity: 0.7;
 }
 
 .patrick {
   grid-area: patrick;
+
+  background: var(--veryDarkBlackishBlue);
 }
 
 footer {
-  border: 1px solid green;
-
   height: 10vh;
   width: 100%;
   text-align: center;
+  color: var(--veryDarkBlackishBlue);
+  font-size: calc(var(--fontSize) * 1.1);
+
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 var(--padding);
+}
+footer a {
+  color: var(--veryDarkGrayishBlue);
+}
+footer a:hover {
+  font-weight: 600;
+  color: var(--veryDarkBlackishBlue);
 }
