@@ -43,7 +43,42 @@ main {
 
   width: 1110px;
   height: 572px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "daniel daniel jonathan kira"
+    "jeanette patrick patrick kira";
 }
+article {
+  border: 3px solid black;
+  border-radius: var(--borderRadius);
+}
+.daniel {
+  grid-area: daniel;
+}
+
+.jonathan {
+  grid-area: jonathan;
+}
+
+.kira {
+  grid-area: kira;
+}
+
+.jeanette {
+  grid-area: jeanette;
+}
+
+.patrick {
+  grid-area: patrick;
+}
+
 footer {
   border: 1px solid green;
 
