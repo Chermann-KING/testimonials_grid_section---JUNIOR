@@ -27,7 +27,31 @@
 }
 
 body {
+  height: 100vh;
   font-family: var(--fontFamily);
   font-size: var(--fontSize);
   background-color: var(--lightGrayishBlue);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+main {
+  border: 1px solid red;
+
+  width: 1110px;
+  height: 572px;
+}
+footer {
+  border: 1px solid green;
+
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding);
 }
