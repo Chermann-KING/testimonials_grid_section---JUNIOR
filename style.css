@@ -66,6 +66,16 @@ article {
   justify-content: space-around;
   flex-direction: column;
 }
+.user {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--margin) * 0.8);
+}
+.user img {
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+}
 .daniel {
   grid-area: daniel;
 }
