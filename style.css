@@ -25,3 +25,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+body {
+  font-family: var(--fontFamily);
+  font-size: var(--fontSize);
+  background-color: var(--lightGrayishBlue);
+}
