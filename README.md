@@ -1,6 +1,6 @@
 # Frontend Mentor - Testimonials grid section
 
-This is a solution to the [Testimonials grid section](URL_PRINTSCREEN). Frontend Mentor challenges help improve coding skills by completing realistic projects.
+This is a solution to the [Testimonials grid section](images\testimonials-grid-section-print-screen.png). Frontend Mentor challenges help improve coding skills by completing realistic projects.
 
 ## Table of contents
 
@@ -12,11 +12,11 @@ This is a solution to the [Testimonials grid section](URL_PRINTSCREEN). Frontend
 
 ### Screenshot
 
-![](URL_PRINTSCREEN)
+![](./images/testimonials-grid-section-print-screen.png)
 
 ### Links
 
-- Solution URL: URL_REPO
+- Solution URL: https://github.com/Chermann-KING/testimonials_grid_section---JUNIOR
 - Live Site URL: URL_PAGE
 
 ### Built with
