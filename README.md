@@ -17,7 +17,7 @@ This is a solution to the [Testimonials grid section](images\testimonials-grid-s
 ### Links
 
 - Solution URL: https://github.com/Chermann-KING/testimonials_grid_section---JUNIOR
-- Live Site URL: URL_PAGE
+- Live Site URL: https://chermann-king.github.io/testimonials_grid_section---JUNIOR/
 
 ### Built with
 
