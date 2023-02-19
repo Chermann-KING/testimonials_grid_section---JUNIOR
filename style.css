@@ -83,11 +83,16 @@ article h1 {
 .daniel {
   grid-area: daniel;
 
-  background: linear-gradient(
+  /* background: linear-gradient(
     45deg,
     rgba(167, 117, 241, 1) 0%,
     var(--moderateViolet) 100%
-  );
+  ); */
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-position: 78% top;
+  background-color: var(--moderateViolet);
+  background-repeat: no-repeat;
+  background-size: 104px 102px;
 }
 .daniel img,
 .patrick img {
@@ -175,5 +180,8 @@ footer a:hover {
   }
   article {
     padding: calc(var(--padding) * 2.1) calc(var(--padding) * 2.14);
+  }
+  .daniel {
+    background-position: 90% top;
   }
 }
