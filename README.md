@@ -1,6 +1,10 @@
 # Frontend Mentor - Testimonials grid section
 
-This is a solution to the [Testimonials grid section](images\testimonials-grid-section-print-screen.png). Frontend Mentor challenges help improve coding skills by completing realistic projects.
+This is the [Testimonials grid section coding challenge](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help improve coding skills by completing realistic projects.
+
+## Welcome! 👋
+
+Thanks for taking a look at my solution to this front-end coding challenge.
 
 ## Table of contents
 
